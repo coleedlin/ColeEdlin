@@ -1,0 +1,28 @@
+p.blocktext{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em
+}
+.ForumTextBox{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em
+}
+.textBoxes{
+    margin-left: auto;
+    margin-right: auto;
+}
+.poll{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 20em;
+}
+.earlyReturns{
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 40em;
+}

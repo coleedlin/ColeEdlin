@@ -1,92 +1,65 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cole Edlin</title>
-    <link rel="stylesheet" href="CSSAssessment.css">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-  </head>
-  <body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSSMiniProject.css">
+  <title>OT CS Capstone</title>
+</head>
+<body>
+  <!--Navbar-->
+  <div data-include="nav">
     <nav class="navbar navbar-dark bg-dark">
         <div class="navbar-header">
-            <a class="navbar-brand" href="#">Cole Edlin</a>
+            <a class="navbar-brand" href="index.html">Home</a>
         </div>
         <ul>
-            <li> <a href="HTMLAssessment.html">Newsletter Signup</a></li>
+            <a class ="navbar-brand" href="ViewForum.html">View Forum Posts</a>
+        </ul>
+        <ul>
+            <a class = "navbar-brand" href="PostForum.html">Post on the Forum</a>
         </ul>
     </nav>
-
-    <div class="MyClass">
-      <center><h1>MLB MYTHBUSTER Home Page</h1></center>
-      <!-- Add a class with custom styling to this div -->
-    </div>
-
-    <div class="MyClass" id="div2">
-      <!-- Add the same class as before to apply the same styling to this div.
-           ALSO add an id to this div to apply something unique. -->
-      <center><h1>Most Popular Posts</h1></center>
-    </div>
-    <!-- STEP 4: CREATE A PHOTO CAROUSEL HERE -->
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="BlakeSnell.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="NewOrder.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="Padres.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <!--Table-->
-      <br>
-      <div class="MyClass" id="div2">
-        <center><h1>Upcoming posts</h1></center>
-    </div>
-      <table class="table table-striped">
-        <thead>
-          <tr>
-            <th scope="col">Title</th>
-            <th scope="col">Rankings or Analysis</th>
-            <th scope="col">Player(s) or Team(s)</th>
-            <th scope="col">Estimated Release Date</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">Ranking $100M Contacts since 2010</th>
-            <td>Rankings</td>
-            <td>Players</td>
-            <td>September 13th</td>
-          </tr>
-          <tr>
-            <th scope="row">Active Player HoF Odds</th>
-            <td>Analysis</td>
-            <td>Players</td>
-            <td>September 16th</td>
-          </tr>
-          <tr>
-            <th scope="row">WC Game Breakdowns</th>
-            <td>Analysis</td>
-            <td>Teams</td>
-            <td>October 2nd</td>
-          </tr>
-        </tbody>
-      </table>
-  </body>
+  </div>
+  <center><h3>Standardized College Entrance Exams: an evaluation</h3></center>
+  <img align = "right" src="SAT.jpg" alt=""
+    height = "300">
+  <div class="ProsCons">
+    <p>
+         pros of college entrance exams:
+      <ul>
+        <li> Standardized (unlike GPA)</li>
+        <li> Although dependent on wealth, Scores may be less dependent than acess to ECs and AP course</li>
+        <li> Can serve as a hail mary for low income students that aren't strong in other areas</li>
+      </ul>
+          cons of college entrance exams:
+      <ul>
+        <li> These tests still very much benefit wealthy students</li>
+        <li> Students can spend more time focusing on their grades and essays if they are not studying for a test</li>
+        <li> Students with high test anxiety will not get a fair showcase of their intilgence</li>
+      </ul>
+    </p>
+  </div>
+  <br>
+  <center><h4>How did COVID-19 Impact College Entrance Testing Policy</h4></center>
+  <p class="blocktext"> In response to the COVID-19 pandemic, most colleges and univserisities implemented a test optional for the Incoming Classes of 2025 and 2026. Some schools even scrapped the test all together and went test blind, such as the UCs. Many of these schools have made their change in policy permanent, so the COVID pandemic appears to already have long lasting effects in the college application process.</p>
+  <div class="earlyReturns">
+    <h4>Early Returns on Test Optional/Blind Policy</h4>
+    <ul>
+      <li>Students who submited test scores were admitted at a higher rate than those who did not</li>
+      <li>Schools that went test optional are getting many more applicants than they did prior to going test optional</li>
+      <li>Test optional schools have not meaningfully increased diversity just by going test optional</li>
+    </ul>
+  </div>
+  <!--Whole page container div-->
+  <div class="container">
+  </div>
+  <!--Bootstrap and other JS scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="scripts/scripts.js"></script>
+</body>
 </html>
